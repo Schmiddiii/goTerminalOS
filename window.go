@@ -43,6 +43,7 @@ func (w *windowStruct) init() {
 		w.writeTxt(2, 11, "directions u d l and r.")
 		w.writeTxt(1, 12, "Use d to show the desktop.")
 		w.writeTxt(1, 13, "Use w to write into the notepad.")
+		w.writeTxt(1, 14, "shutdown will close the system.")
 	}
 	if w.windowType == "notepad" {
 		w.additionalInfo = "2"
